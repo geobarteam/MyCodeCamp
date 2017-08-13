@@ -3,15 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MyCodeCamp.Data;
 
 namespace MyCodeCamp.Controllers
 {
+    [Route("api/camps")]
     public class CampsController: Controller
     {
-        [HttpGet("api/[controller]")]
+        private ICampRepository _repo;
+        public CampsController(ICampRepository repo){
+            this._repo = repo;
+        }
+
+        
+        [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new {Name = "Shawn", FavoriteColor = "Blue"});
+            var camps = this._repo.GetAllCamps();
+            return Ok(camps);
         }
     }
 }

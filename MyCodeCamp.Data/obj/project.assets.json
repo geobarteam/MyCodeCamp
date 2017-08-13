@@ -8769,6 +8769,9 @@
       "originalTargetFrameworks": [
         "netcoreapp1.0"
       ],
+      "files": {
+        "lib/netcoreapp1.0/MyCodeCamp.Data.dll": "C:\\Dev\\pluralsight\\MyCodeCamp\\MyCodeCamp.Data\\bin\\placeholder\\netcoreapp1.0\\MyCodeCamp.Data.dll"
+      },
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {}
@@ -8778,13 +8781,30 @@
     "frameworks": {
       "netcoreapp1.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.0.2"
+            "version": "1.0.4"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "1.0.3"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "1.0.0"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "1.0.3"
+          },
+          "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "1.0.2"
+          },
+          "Microsoft.Extensions.Configuration": {
+            "target": "Package",
+            "version": "1.0.2"
           },
           "Microsoft.Extensions.Configuration.FileExtensions": {
             "target": "Package",
@@ -8794,29 +8814,11 @@
             "target": "Package",
             "version": "1.0.2"
           },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "1.0.0"
-          },
-          "Microsoft.Extensions.Configuration": {
-            "target": "Package",
-            "version": "1.0.2"
-          },
-          "Microsoft.Extensions.Configuration.Abstractions": {
-            "target": "Package",
-            "version": "1.0.2"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "1.0.4",
-            "autoReferenced": true
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "1.0.3"
-          },
           "Microsoft.AspNetCore.Identity": {
+            "target": "Package",
+            "version": "1.0.2"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "1.0.2"
           }

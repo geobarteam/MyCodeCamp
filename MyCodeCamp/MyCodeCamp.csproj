@@ -15,4 +15,8 @@
     <PackageReference Include="Moq" Version="4.7.99" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyCodeCamp.Data\MyCodeCamp.Data.csproj" />
+  </ItemGroup>
+
 </Project>

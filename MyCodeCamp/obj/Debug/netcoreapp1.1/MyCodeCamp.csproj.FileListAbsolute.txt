@@ -7,3 +7,14 @@ C:\Dev\pluralsight\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.AssemblyInfo.cs
 C:\Dev\pluralsight\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.pdb
 C:\Dev\pluralsight\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.dll
 C:\Dev\pluralsight\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.pdb
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.deps.json
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.runtimeconfig.json
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.runtimeconfig.dev.json
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.dll
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.pdb
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.csprojResolveAssemblyReference.cache
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.AssemblyInfo.cs
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.dll
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\obj\Debug\netcoreapp1.1\MyCodeCamp.pdb
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.Data.dll
+C:\Dev\pluralsight\MyCodeCamp\MyCodeCamp\bin\Debug\netcoreapp1.1\MyCodeCamp.Data.pdb
